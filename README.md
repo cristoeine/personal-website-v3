@@ -30,12 +30,12 @@ Also note that I did not build this site with the intention of it being a starte
 
 
 ## 🌊 The Flow
-1. Low Fidelity Prototype
+1. **Low Fidelity Prototype** <br>
    This is the first step I took before I built my website
    ![Low Fidelity](src/images/low%20fidelity.png)
 
-2. High Fidelity Prototype
+2. **High Fidelity Prototype** <br>
    Next, I turned the low fidelity into the high fidelity prototype. You can check it on [my Figma](https://www.figma.com/file/JOdP7JVJbU1UwaOkSiZXi3/Website?type=design&node-id=0%3A1&mode=design&t=xl3hzoSBgPBAEhoa-1)
 
-3. Building website
+3. **Building website** <br>
    After that, I started to realize the high fidelity into the real website
