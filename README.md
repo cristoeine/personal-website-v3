@@ -10,9 +10,9 @@
 
 ## Hi everyone!
 ___
-This is my first time coding my portfolio and IT IS LIVE!! Not like my any other portfolio trials
+This is my first time coding my portfolio and IT IS LIVE!! (not like my any other portfolio trials). Also I want to thank you to [Brittany Chiang](https://brittanychiang.com) because I get the inspiration from her.
 
-I built this with [Gatsby (https://www.gatsbyjs.com)][Gatsby]
+I built this with [Gatsby](https://www.gatsbyjs.com)
 
 
 ## Forking This Repo
@@ -23,5 +23,5 @@ Why?
 
 Because I spent my time, my effort, many nights just to build this website. Yes, I build it from the beginning like designing my website and then put it in figma and turned it into a website. So please, all you guys need to do just  give me proper credit by linking back to ........ Thanks!
 
-Also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs (https://www.gatsbyjs.com/docs/)][Gatsby docs].
+Also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.com/docs/).
 

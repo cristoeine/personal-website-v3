@@ -28,15 +28,15 @@ const IndexPage = () => {
               <Col lg={8}>
                 <div className={divWriting}>
                   <h2 className={indexName}>Cristine Ferlly Wiyanto</h2><br />
-                  <p>I am a passionate girl in data world and also machine learning. Trying my best to give out something to the world with my ability in data and machine learning.<br />
-                    In addition, I am just a woman who loves learning and build up my experience.<br />
-                    Let's us see what I can do for you through my projects.
+                  <p>
+                  I am a passionate girl in data world and also machine learning. Trying my best to give out something to the world with my ability in data and machine learning.In addition, I am just a woman who loves learning (basically all, such as languages, new things, etc) and build up my experience. I am also a structured thinking and doing my best to be better each day. <br/><br/>
+                  You can contact me through my email or LinkedIn and check my projects through git. Let’s connect!
                   </p><br />
                   <Row className={indexSocmed}>
-                    <Col><span><Link to='mailto:ferlly.wiyanto@gmail.com' target='blank'><FontAwesomeIcon icon={faEnvelope} size='2xl' style={{ color: "#F0DDBC", }} className={iconEffect} /></Link></span></Col>
-                    {/* <Col><span><Link to=''><FontAwesomeIcon icon={faInstagram} size='2xl' style={{color: "#F0DDBC",}}/></Link></span></Col> */}
-                    <Col><span><Link to='www.linkedin.com/in/ferlly-wiyanto' target='blank'><FontAwesomeIcon icon={faLinkedin} size='2xl' style={{ color: "#F0DDBC", }} className={iconEffect} /></Link></span></Col>
-                    <Col><span><Link to='https://github.com/cristoeine' target='blank'><FontAwesomeIcon icon={faGithub} size='2xl' style={{ color: "#F0DDBC", }} className={iconEffect} /></Link></span></Col>
+                    <Col><span><Link to='mailto:ferlly.wiyanto@gmail.com' target='blank'><FontAwesomeIcon icon={faEnvelope} size='xl' style={{ color: "#F0DDBC", }} className={iconEffect} /></Link></span></Col>
+                    {/* <Col><span><Link to=''><FontAwesomeIcon icon={faInstagram} size='xl' style={{color: "#F0DDBC",}}/></Link></span></Col> */}
+                    <Col><span><Link to='www.linkedin.com/in/ferlly-wiyanto' target='blank'><FontAwesomeIcon icon={faLinkedin} size='xl' style={{ color: "#F0DDBC", }} className={iconEffect} /></Link></span></Col>
+                    <Col><span><Link to='https://github.com/cristoeine' target='blank'><FontAwesomeIcon icon={faGithub} size='xl' style={{ color: "#F0DDBC", }} className={iconEffect} /></Link></span></Col>
                   </Row>
                 </div>
               </Col>

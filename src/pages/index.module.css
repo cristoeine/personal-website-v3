@@ -16,8 +16,8 @@ body{
 }
 
 .vl {
-    border-left: 6px solid #F0DDBC;
-    height: 500px;
+    border-left: 4px solid #F0DDBC;
+    height: 525px;
 }
 
 .div-writing{
@@ -28,10 +28,11 @@ body{
 
 .index-name{
     font-weight: 700;
-    font-size: 70px;
+    font-size: 62px;
     color: #F0DDBC;
-    margin-top: 5vh;
+    font-family: 'Inter', sans-serif;
     max-width: 100%;
+    letter-spacing: 1.5px;
 }
 
 .index-col-picture {
@@ -69,6 +70,9 @@ body{
 
 p {
     font-size: larger;
+    font-family: 'Inter', sans-serif;
+    margin-right: 8%;
+    text-align: justify;
 }
 
 hr{
