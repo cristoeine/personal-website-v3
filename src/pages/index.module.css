@@ -29,7 +29,7 @@ body{
 
 .index-name{
     font-weight: 700;
-    font-size: 48px;
+    font-size: 44px;
     color: #F0DDBC;
     font-family: 'Inter', sans-serif;
     max-width: 100%;
@@ -83,7 +83,7 @@ body{
 }
 
 p {
-    font-size: larger;
+    font-size: medium;
     font-family: 'Inter', sans-serif;
     margin-right: 8%;
     text-align: justify;
@@ -95,7 +95,7 @@ hr{
 
 footer{
     margin-top: 20vh;
-    margin-bottom: 0%;
+    padding-bottom: 5vh;
 }
 
 
@@ -112,5 +112,10 @@ footer{
         max-width: 100%;
         position: relative;
         font-family: 'Inter', sans-serif;
+    }
+
+    footer{
+        margin-top: 70vh;
+        padding-bottom: 5vh;
     }
 }

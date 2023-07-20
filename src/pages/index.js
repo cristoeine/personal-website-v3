@@ -48,7 +48,7 @@ const IndexPage = () => {
                   <StaticImage src="../images/profile_photo.png" alt='Hi, it is me!' layout='constrained' class={pictureSet}></StaticImage>
                 </div>
                 <div className={svgClass}>
-                  <svg width="800" height="510">
+                  <svg width="500" height="510">
                     <rect width="400" height="400" x={45} y={40} fill='transparent' stroke='#F0DDBC' strokeWidth='5' />
                   </svg>
                 </div>
