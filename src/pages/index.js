@@ -13,7 +13,9 @@ import {
   indexColPicture,
   indexPicture,
   indexSocmed,
-  iconEffect
+  iconEffect,
+  pictureSet,
+  svgClass
 } from './index.module.css'
 import { Link } from 'gatsby'
 
@@ -42,12 +44,14 @@ const IndexPage = () => {
               </Col>
               {/* photo */}
               <Col lg={4} className={indexColPicture}>
-                <div>
-                  <StaticImage src="../images/profile_photo.png" alt='Hi, it is me!' layout='constrained' className={indexPicture}></StaticImage>
+                <div className={indexPicture}>
+                  <StaticImage src="../images/profile_photo.png" alt='Hi, it is me!' layout='constrained' class={pictureSet}></StaticImage>
                 </div>
-                <svg width="800" height="810">
-                  <rect width="400" height="400" x={45} y={40} fill='transparent' stroke='#F0DDBC' strokeWidth='5' />
-                </svg>
+                <div className={svgClass}>
+                  <svg width="800" height="510">
+                    <rect width="400" height="400" x={45} y={40} fill='transparent' stroke='#F0DDBC' strokeWidth='5' />
+                  </svg>
+                </div>
               </Col>
             </Row>
           </Container>
