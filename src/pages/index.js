@@ -15,7 +15,9 @@ import {
   indexSocmed,
   iconEffect,
   pictureSet,
-  svgClass
+  svgClass,
+  copyrightIndex,
+  svgClassphone
 } from './index.module.css'
 import { Link } from 'gatsby'
 
@@ -40,30 +42,33 @@ const IndexPage = () => {
                     <Col><span><Link to='www.linkedin.com/in/ferlly-wiyanto' target='blank'><FontAwesomeIcon icon={faLinkedin} size='xl' style={{ color: "#F0DDBC", }} className={iconEffect} /></Link></span></Col>
                     <Col><span><Link to='https://github.com/cristoeine' target='blank'><FontAwesomeIcon icon={faGithub} size='xl' style={{ color: "#F0DDBC", }} className={iconEffect} /></Link></span></Col>
                   </Row>
+                  <p className={copyrightIndex}>Copyright Ⓒ 2023 Cristine Ferlly Wiyanto</p>
                 </div>
               </Col>
               {/* photo */}
               <Col lg={4} className={indexColPicture}>
                 <div className={indexPicture}>
-                  <StaticImage src="../images/profile_photo.png" alt='Hi, it is me!' layout='constrained' class={pictureSet}></StaticImage>
+                  <StaticImage src="../images/profile_photo.png" alt='Cristine Huang' layout='constrained' class={pictureSet}></StaticImage>
                 </div>
                 <div className={svgClass}>
                   <svg width="500" height="510">
                     <rect width="400" height="400" x={45} y={40} fill='transparent' stroke='#F0DDBC' strokeWidth='5' />
                   </svg>
                 </div>
+                <div className={svgClassphone}>
+                  <svg width="400" height="510">
+                    <rect width="300" height="300" x={45} y={40} fill='transparent' stroke='#F0DDBC' strokeWidth='5' />
+                  </svg>
+                </div>
               </Col>
             </Row>
           </Container>
-          <footer>
-            <hr></hr>
-            <center>Copyright Ⓒ 2023 Cristine Ferlly Wiyanto</center>
-          </footer>
         </div>
       </div>
     </>
   )
 }
 
+export const Head = () => <title>Cristine Huang</title>
 
 export default IndexPage
